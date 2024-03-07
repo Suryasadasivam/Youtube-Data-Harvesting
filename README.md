@@ -1,5 +1,5 @@
 #Youtube-Data-Harvesting-And-Warehousing
-YouTube Data Harvesting and Warehousing is a project that intends to provide users with the ability to access and analyse data from numerous YouTube channels. SQL, MongoDB, and Streamlit are used in the project to develop a user-friendly application that allows users to retrieve, save, and query YouTube channel and video data.
+is a project that intends to provide users with the ability to access and analyse data from numerous YouTube channels. SQL, MongoDB, and Streamlit are used in the project to develop a user-friendly application that allows users to retrieve, save, and query YouTube channel and video data.
 
 TOOLS AND LIBRARIES USED:
 this project requires the following components:
@@ -16,8 +16,8 @@ The googleapiclient library in Python facilitates the communication with differe
 MONGODB ATLAS:
 MongoDB Atlas is a comprehensive cloud-based database service designed specifically for MongoDB. In this project, MongoDB Atlas is utilized to store the data obtained from YouTube's Data API v3. By leveraging MongoDB Atlas, developers can benefit from a fully managed and hassle-free database solution that ensures the reliable and scalable storage and retrieval of data, thereby facilitating efficient data management.
 
-POSTGRESQL:
-PostgreSQL is an open-source, advanced, and highly scalable database management system (DBMS) known for its reliability and extensive features. It provides a platform for storing and managing structured data, offering support for various data types and advanced SQL capabilities.
+MYSQL:
+MYSQL is an open-source, advanced, and highly scalable database management system (DBMS) known for its reliability and extensive features. It provides a platform for storing and managing structured data, offering support for various data types and advanced SQL capabilities.
 
 YOUTUBE DATA SCRAPPING AND ITS ETHICAL PERSPECTIVE:
 When engaging in the scraping of YouTube content, it is crucial to approach it ethically and responsibly. Respecting YouTube's terms and conditions, obtaining appropriate authorization, and adhering to data protection regulations are fundamental considerations. The collected data must be handled responsibly, ensuring privacy, confidentiality, and preventing any form of misuse or misrepresentation. Furthermore, it is important to take into account the potential impact on the platform and its community, striving for a fair and sustainable scraping process. By following these ethical guidelines, we can uphold integrity while extracting valuable insights from YouTube data.
