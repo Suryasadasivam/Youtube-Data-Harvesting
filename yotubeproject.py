@@ -14,7 +14,7 @@ api_version = "v3"
 api_key="AIzaSyCtOmmPYSHLBnXw2kJNxeGMPgIzJ9dLepo"
 
 youtube = googleapiclient.discovery.build(api_service_name, api_version, developerKey=api_key )
-client=pymongo.MongoClient('mongodb+srv://suryasadasivamm:Surya0807@guvi.yn6kwzt.mongodb.net/?retryWrites=true&w=majority&appName=guvi')
+client=pymongo.MongoClient('your mongodb connection')
 vb=client['youtube']
 col=vb["channel_details"]
 col2=vb["video_details"]
@@ -22,9 +22,9 @@ col3=vb["comment_details"]
 
 #database connection
 mydb= mysql.connector.connect(
-    host='127.0.0.1', 
+    host='hostid', 
     user="root", 
-    password="Surya0807sada",
+    password="your password",
     database='YoutubeProject')
 mycursor= mydb.cursor() 
 # getting channel name from Mongodb 
